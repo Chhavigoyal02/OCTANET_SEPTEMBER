@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Online Workshop Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="https://d2lk14jtvqry1q.cloudfront.net/media/large_GLA_University_Mathura_bf39757d70_218560b27a.png"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">EVENT INFORMATION</a>
+          <a href="#our-service" class="nav-link">TOPICS</a>
+          <a href="#benefits" class="nav-link">BENEFITS</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTacUvGuZURRgWkBysKwMpRn20zvzwLD8Mo5XS8yF5bTVWvKJpMjoLWddDQFW2QD1ZnEw&usqp=CAU" alt="Python Image" />
+        </div>
+        <div class="eye-grabber">
+          <h1>ONLINE WORKSHOP ON PYTHON.</h1>
+          <h2>
+            Learn to Program and Analyze Data with Python. Develop programs to gather, clean, analyze, and visualize data.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            It was the year 1991 Shri Narayan Das Agrawal decided to fulfil the dream of his father, Late Shri Ganeshi Lal Agrawal, of establishing an institute for quality education to the people and the region & beyond. and initiated Sri Jagannath Prasad Ganeshi Lal Bajaj Charitable Trust Samiti in an attempt to make the holy city Mathura a recognized destination for knowledge seekers from different spheres of life. This is what led to the foundation of a milestone at the karmabhoomi of the versatile and sagacious Lord Krishna.Our mission is To impart quality professional education, to conduct commendable research and to provide credible consultancy and extension services as per current and emerging socio-economic needs and to continuously enhance and enrich the teaching/learning process and set such standards, education and otherwise, that other institutes would want to emulate.
+          </p>
+          <img src="https://helios-i.mashable.com/imagery/articles/04B9NdYK9Q1spswrOhTbv04/hero-image.fill.size_1248x702.v1657183837.jpg" alt="A man with coding" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">EVENT INFORMATION</h3>
+        <div class="sec-content-div flexible">
+          <span>WHO SHOULD ATTEND</span>
+          <p>Students: B.Tech(all years),BCA(all years), Class 8th-12th,MBA or Anyone who is interested in coding and want to do freelancing. Hands-on exercises will be performed individually using software tools (no prior experience required).</p>
+          <span>T & C</span>
+          <p>1. Interactive training sessions will be conducted on Google Meet/Zoom so to give users a better learning experience.<br>2. As it is with a LIVE TRAINER hence practical application, i.e., the experiments/tasks to be performed can be done in the best explainable manner.<br>3. In this Online Workshop, there will be a LIVE trainer who will solve queries along with training.Make sure you register under the right category. If you register under the wrong category then your registration will be invalid and NO REFUND WILL BE MADE IN THIS CASE. This is your mistake and the company is not responsible for it.<Br>4. You need to upload your professional ID which can be your Student ID Card or Research Institute ID Card or Company ID Card.<br>5. The certificate will be issued as per the details which you provide in the registration form while registering before payment.<br>6. Once you register relax we will send you the meeting link after the workshop registration gets over.
+            </p>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">Topics To Be Covered</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="./images/stairs.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Python Basics</h5>
+              <p>Describe the basics of the Python programming language and Utilize core programming tools such as functions and loops </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="./images/data-structure.png"  alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Data Structures</h5>
+              <p>Explain the principles of data structures & how they are used and Accomplish multi-step tasks like sorting or looping using tuples</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="./images/database.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Databases</h5>
+              <p>Use the Create, Read, Update, and Delete operations to manage databases and Explain the basics of Object Oriented Python</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="benefits" class="sec-padding">
+        <h3 class="section-heading">BENEFITS</h3>
+        <div class="sec-content-div flexible">
+            <iframe 
+            width="560"
+            height="315" 
+            src="https://www.youtube.com/embed/UGj0bOYPdCw?si=VzGcQli0DR-Yp1dt" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To register in workshop or just to know more contact us :</h6>
+          <form id="form" action="data.php" method="POST">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      &copy; Created by
+      <a href="#">Chhavi Goyal</a>
+    </footer>
+  </body>
+</html>
